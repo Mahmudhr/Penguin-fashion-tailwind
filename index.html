@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/931bdada37.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Manrope:wght@700&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        yellow: '#FABE4C',
+                        linear: '#A4BC46',
+                        white: '#F9FAFB',
+                    },
+                    fontFamily: {
+                        bebas: ["Bebas Neue", "cursive"],
+
+                        Lobster: ["Lobster", "cursive"],
+
+                        manrope: ["Manrope", "sans - serif"],
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+
+<body>
+    <section class="container mx-auto">
+        <nav class="flex justify-between items-center my-3 py-3 bg-white">
+            <div>
+                <img class="img-fluid w-6/12" src="images/logo.png" alt="">
+            </div>
+            <div>
+                <ul class="flex gap-10 text-2xl font-medium">
+                    <li>Home</li>
+                    <li>Product</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section class="container mx-auto">
+        <div class="flex items-center justify-around">
+            <div class="space-y-5">
+                <h1 class="text-7xl  font-normal leading-none my-5 py-5 font-bebas"><span class="text-yellow">BE THE
+                        PENGUINS</span><br>
+                    OF
+                    WINTER</h1>
+                <p class="my-5 py-5">
+                    Online shopping for men, women and kids. Buy clothes, bags,
+                    shoes
+                    at best price. <br>Get fast delivery! </p>
+                <button class="bg-linear text-white w-44 h-14 rounded top-96 left-32"><i
+                        class="fa-solid fa-cart-shopping"></i>
+                    Buy Now</button>
+            </div>
+            <div>
+                <img class="img-fluid max-w-xl max-h-100" src="images/model.png" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
